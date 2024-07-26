@@ -1,7 +1,7 @@
 <div class="oranda-hide">
 
 # `cargo-house`
-
+## House MD inspired modification of `cargo-mommy`
 </div>
 
 [![crates.io](https://img.shields.io/crates/v/cargo-mommy.svg)](https://crates.io/crates/cargo-mommy)
@@ -39,7 +39,7 @@ Mmm~ come taste House's big fat creamy Vicodin~ 💖
 
 # Configuration
 
-Mommy will read the following environment variables to make her messages better for you~ ❤️
+House will read the following environment variables to make his messages better for you~ ❤️
 
 * `CARGO_HOUSES_LITTLE` - what to call you~ (default: "patient")
 * `CARGO_HOUSES_PRONOUNS` - what pronouns House will use for himself~ (default: "him")
@@ -47,7 +47,7 @@ Mommy will read the following environment variables to make her messages better 
 * `CARGO_HOUSES_EMOTES` - what emotes House will have~ (default "❤️/💖/💗/💓/💞")
 * `CARGO_HOUSES_MOODS` - picks the set of possible responses~ (default: "thirsty", possible values "thirsty", "yikes")
 
-All of these options can take a `/` separated list. House will randomly select one of them whenever she talks to you~
+All of these options can take a `/` separated list. House will randomly select one of them whenever he talks to you~
 
 For example, the phrase "House loves his little patient~ 💞" is "CARGO_HOUSES_ROLE loves CARGO_HOUSES_PRONOUNS little CARGO_HOUSES_LITTLE~"
 
@@ -59,4 +59,8 @@ House likes freedom~ ❤️, and is dual-licensed under [MIT](LICENSE-MIT) and [
 
 Use either at your choice.
 
-Not written by me, I don't know Rust. I just forked this and removed what I don't need.
+Not written by me (it was actually written by the gnomes in my closet), I don't know Rust. I just forked this and removed what I don't need.
+If you take offense to this, I'm sorry for being alive and I'm sorry your eyes had to gaze upon this cursed monstrosity.
+If you're the original author and take offense to this, contact me somehow and I'll remove this repo.
+
+No copyright infringement intended. Fair use exists for a reason. 
