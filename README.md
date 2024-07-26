@@ -1,6 +1,6 @@
 <div class="oranda-hide">
 
-# `cargo-mommy`
+# `cargo-house`
 
 </div>
 
@@ -9,19 +9,19 @@
 
 
 
-Mommy's here to support you when running cargo~ ❤️
+House's here to support you when running cargo~ ❤️
 
 # Installation
 
-You can `cargo install cargo-mommy`, [see the website for more options](https://faultlore.com/cargo-mommy/)
+Build with `cargo b`, copy the executable `target/debug/cargo-house` into `~/.cargo/bin`
 
 
 # Usage
 
-Run whatever cargo command you would normally but add mommy after cargo~
+Run whatever cargo command you would normally but add `house` after cargo~
 
 ```
-cargo mommy check
+cargo house check
 
     Checking bappy-script v0.1.3
 error: expected one of `!` or `::`, found `passes`
@@ -31,7 +31,7 @@ error: expected one of `!` or `::`, found `passes`
    |      ^^^^^^ expected one of `!` or `::`
 
 error: could not compile `bappy-script` (bin "bappy-script") due to previous error
-mommy knows her little girl can do better~ 💞
+Mmm~ come taste House's big fat creamy Vicodin~ 💖
 ```
 
 [See the docs for more options](https://faultlore.com/cargo-mommy/book/)
@@ -41,29 +41,22 @@ mommy knows her little girl can do better~ 💞
 
 Mommy will read the following environment variables to make her messages better for you~ ❤️
 
-* `CARGO_MOMMYS_LITTLE` - what to call you~ (default: "girl")
-* `CARGO_MOMMYS_PRONOUNS` - what pronouns mommy will use for themself~ (default: "her")
-* `CARGO_MOMMYS_ROLES` - what role mommy will have~ (default "mommy")
-* `CARGO_MOMMYS_EMOTES` - what emotes mommy will have~ (default "❤️/💖/💗/💓/💞")
-* `CARGO_MOMMYS_MOODS` - picks the set of possible responses~ (default: "chill", possible values "chill", "ominous")
+* `CARGO_HOUSES_LITTLE` - what to call you~ (default: "patient")
+* `CARGO_HOUSES_PRONOUNS` - what pronouns House will use for himself~ (default: "him")
+* `CARGO_HOUSES_ROLES` - what role House will have~ (default "House")
+* `CARGO_HOUSES_EMOTES` - what emotes House will have~ (default "❤️/💖/💗/💓/💞")
+* `CARGO_HOUSES_MOODS` - picks the set of possible responses~ (default: "thirsty", possible values "thirsty", "yikes")
 
-All of these options can take a `/` separated list. Mommy will randomly select one of them whenever she talks to you~
+All of these options can take a `/` separated list. House will randomly select one of them whenever she talks to you~
 
-For example, the phrase "mommy loves her little girl~ 💞" is "CARGO_MOMMYS_ROLE loves CARGO_MOMMYS_PRONOUNS little CARGO_MOMMYS_LITTLE~"
-
-So if you set `CARGO_MOMMYS_ROLES="daddy"`, `CARGO_MOMMYS_PRONOUNS="his/their"`, and `CARGO_MOMMYS_LITTLE="boy/pet/baby"` then you might get any of
-
-* daddy loves their little boy~ ❤️
-* daddy loves his little pet~
-* daddy loves their little baby~ 💗
+For example, the phrase "House loves his little patient~ 💞" is "CARGO_HOUSES_ROLE loves CARGO_HOUSES_PRONOUNS little CARGO_HOUSES_LITTLE~"
 
 And so on~ 💓
 
 
-
-
-
 # Licensing
-mommy likes freedom~ ❤️, and is dual-licensed under [MIT](LICENSE-MIT) and [Apache 2.0](LICENSE-APACHE).
+House likes freedom~ ❤️, and is dual-licensed under [MIT](LICENSE-MIT) and [Apache 2.0](LICENSE-APACHE).
 
 Use either at your choice.
+
+Not written by me, I don't know Rust. I just forked this and removed what I don't need.
