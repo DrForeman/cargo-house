@@ -24,7 +24,6 @@ const RESPONSES: &str = include_str!("./responses.json");
 #[derive(PartialEq, Eq, PartialOrd, Ord, serde::Deserialize)]
 #[serde(rename_all = "snake_case")]
 enum Spiciness {
-    Chill,
     Thirsty,
     Yikes,
 }
@@ -32,16 +31,14 @@ enum Spiciness {
 impl Spiciness {
     const CONFIGURED: Spiciness = if cfg!(feature = "yikes") {
         Self::Yikes
-    } else if cfg!(feature = "thirsty") {
-        Self::Thirsty
     } else {
-        Self::Chill
+        Self::Thirsty
     };
 }
 
 impl Default for Spiciness {
     fn default() -> Self {
-        Self::Chill
+        Self::Thirsty
     }
 }
 

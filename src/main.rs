@@ -55,8 +55,8 @@ fn real_main() -> Result<i32, Box<dyn std::error::Error>> {
     let true_role = if let Some((_path, role)) = bin_name.rsplit_once("cargo-") {
         role.to_owned()
     } else {
-        // If something messed up is going on "mommy" will always take care of it~
-        "mommy".to_owned()
+        // If something messed up is going on "house" will always take care of it~
+        "house".to_owned()
     };
 
     let cargo = env::var(format!("CARGO_{}S_ACTUAL", true_role.to_uppercase()))

@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "cargo-mommy"
+name = "cargo-house"
 version = "0.3.1"
 dependencies = [
  "fastrand",
